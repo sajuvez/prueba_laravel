@@ -1,20 +1,27 @@
-Pasos necesarios
-Descargue el proyecto
+## Ejemplo de CRUD en Laravel integrando VueJS
 
-Ejecute la descarga de las dependencias de Laravel y PHP con composer composer install
+Este es un ejemplo sencillo de como realizar un CRUD usando Laravel + VueJS.
 
-Ejecute la descarga de las dependencias de JS npm i
+## Pasos necesarios
 
-Compile los archivos en JS
+* Descargue el proyecto
+* Ejecute la descarga de las dependencias de Laravel y PHP con composer
+	`composer install`
 
-npm run prod
+* Ejecute la descarga de las dependencias de JS
+	`npm i`
 
-Si desea mantener el proyecto en modo desarrollador ejecute
+* Compile los archivos en JS
 
-npm run dev ó npm run watch
+	`npm run prod`
 
-Cree la base de datos y modifique el archivo .env.
+* Si desea mantener el proyecto en modo desarrollador ejecute
 
-Ejecute las migraciones y seeders con php artisan migrate -seed
+	`npm run dev` ó `npm run watch`
 
-Realice las rutas en su servidor o ejecute php artisan serve
+* Cree la base de datos y modifique el archivo .env.
+
+* Ejecute las migraciones y seeders con `php artisan migrate -seed`
+
+* Realice las rutas en su servidor o ejecute
+	`php artisan serve`
